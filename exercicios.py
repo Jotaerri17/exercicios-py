@@ -90,3 +90,33 @@ from random import shuffle
 # random,shuffle(Lista)
 # print("A orde de apresentação sera")
 # print(Lista)
+
+
+# nome=str(input('Digite seu nome completo:'))
+# print(f'Seu nome em maiusculo é {nome.upper()}, em minusculo é {nome.lower()}')
+# espacos=nome.count(' ')
+# indice=len(nome)
+# dividido=nome.split()
+# print(f'Seu nome completo tem {espacos-indice} caracteres e seu porimeiro nome tem {(len(dividido[0]))} caracteres')
+
+
+# nome=str(input('Digite o nome da sua cidade:'))
+# nome1=nome.split()
+# print(f'O nome da sua cidade começa com "Santo"? {"Santo" == nome1[0]}')
+
+# nome=str(input('Digite seu nome completo:'))
+# print(f'seu nome tem Silva? {"Silva" in nome}')
+
+#frase=str(input('Digite uma frase:'))
+# print(f'Existem apenas {frase.count('a')} vogais a na frase')
+# print(f'A vogal a se encontra pela primeira vez no caracter {frase.find('a')} e pela ultima vez no caracter {frase.rfind('a')}')
+
+# num=int(input('Digite um numero:'))
+# u=num//1%10
+# d=num//10%10
+# c=num//100%10
+# m=num//1000%10
+# print(f'A unidade é {u}')
+# print(f'A dezena é {d}')
+# print(f'A centena é {c}')
+# print(f'O milhar é {m}')
