@@ -97,7 +97,7 @@ from random import shuffle
 # espacos=nome.count(' ')
 # indice=len(nome)
 # dividido=nome.split()
-# print(f'Seu nome completo tem {espacos-indice} caracteres e seu porimeiro nome tem {(len(dividido[0]))} caracteres')
+# print(f'Seu nome completo tem {espacos-indice} caracteres e seu primeiro nome tem {(len(dividido[0]))} caracteres')
 
 
 # nome=str(input('Digite o nome da sua cidade:'))
@@ -120,3 +120,10 @@ from random import shuffle
 # print(f'A dezena é {d}')
 # print(f'A centena é {c}')
 # print(f'O milhar é {m}')
+
+
+# nome=str(input('Digite seu nome completo:'))
+# n= nome.split()
+# print(f'Seu primeiro nome é {n[0]} e seu ultimo nome é {n[-1]}')
+
+
