@@ -173,3 +173,43 @@
 #         print('EMPATE')
 #     else:
 #         print('Opção invalida')
+
+# n=int(input('Digite um numero:'))
+# for c in range(0,n+1):
+#     print(c)
+# print('Fim')
+
+ # Contagem regressiva
+# from time import sleep
+# for c in range(10,-1,-1):
+#     print(c)
+#     sleep(1)
+# print('Fim')
+
+# Contagem de numeros pares
+# for n in range(2,51,2):
+#      print(n, end=' ')
+# print('Acabou')
+
+# soma=0
+# cont=0
+# for c in range(1,501,2):
+#     if c%3==0:
+#         cont=cont+1
+#         soma = soma+c
+# print(f'A soma de todos os {cont} valores solicitados é {soma}')
+
+# Tabuada v2.0
+# num=int(input('Digite um numero para ver sua tabuada:'))
+# for n in range(1,11):
+#     print(f'{num} * {n} = {num*n}')
+
+# Soma dos numeros pares
+# soma=0
+# cont=0
+# for n in range(1,7):
+#     num=int(input('Digite um numero:'))
+#     if num%2==0:
+#         soma=soma+num
+#         cont=cont+1
+# print(f'Voce informou {cont} numeros e a soma entre eles foi {soma}')
