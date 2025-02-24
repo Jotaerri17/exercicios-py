@@ -213,3 +213,98 @@
 #         soma=soma+num
 #         cont=cont+1
 # print(f'Voce informou {cont} numeros e a soma entre eles foi {soma}')
+
+#P.A
+# pm=int(input('Digite o primeiro termo:'))
+    # razão=int(input('Qual a razão?:'))
+    # decimo= pm+(11-1)*razão
+    # for c in range(pm,decimo,razão):
+    #     print(c, end=' -- ')
+    # print('Fim!')
+
+#Numeros primos
+# num=int(input('Digite um numero: '))
+# tot=0
+# for c in range(1,num+1):
+#     if num % c ==0:
+#         print('\033[33m ', end=' ')
+#         tot+= 1
+#     else:
+#         print('\033[31m',end=' ')
+#     print(c, end=' ')
+# print(f'\n\033[mO numero {num} foi divisivel {tot} vezes')
+# if tot == 2:
+#       print(f'{num} é primo')
+# else:
+#      print(f'{num} nao é primo')
+
+#Detector de palindromo
+# frase=str(input('Digite uma frase:')).strip().upper()
+# palavras=frase.split()
+# junto=''.join(palavras)
+# inverso=''
+# for letra in range(len(junto)-1,-1,-1):
+#     inverso+=junto[letra]
+# print(inverso)
+# if inverso==junto:
+#     print('Temos um palindromo')
+# else:
+#     print('A frase digitada nao e um palindromo')
+
+# Grupo da maioridade
+# import datetime
+# atual=datetime.date.today().year
+# totmaior=0
+# totmenor=0
+# for pess in range (1,8):
+#     nasc = int(input(f'Em que ano {pess} pessoa nasceu?:'))
+#     idade = atual - nasc
+#     print(f'Essa pessoa tem {idade} anos')
+#     if idade>=18:
+#         totmaior+=1
+#         print('Essa pessoa e maior de idade')
+#     else:
+#         totmenor+=1
+#         print('Essa pessoa e menor de idade')
+# print(f'Ao todo tivemos {totmaior} pessoas maiores de idade')
+# print(f'E tivemos {totmenor} pessoas menores de idade')
+
+#Maior e menos peso
+# maior=0
+# menor=0
+# for p in range(1,8):
+#     peso=float(input(f'Qual o peso da {p} pessoa?:'))
+#     if p==1:
+#         maior=peso
+#         menor=peso
+#     else:
+#         if peso>maior:
+#             maior=peso
+#         if peso<menor:
+#             menor=peso
+# print(f'O maior peso lido foi de {maior}Kg')
+# print(f'O menor peso lido foi de {menor}Kg')
+
+# somaidade=0
+# mediaidade=0
+# maioridadehomem=0
+# nomevelho=''
+# totmulher20=0
+# for p in range(1,5):
+#     print(f'------- {p} PESSOA -------')
+#     nome=str(input('Nome:')).strip()
+#     idade=int(input('Idade:'))
+#     sexo=str(input('Sexo [M/F]:')).strip()
+#     somaidade+=idade
+#     if p==1 and sexo in 'Mm':
+#         maioridadehomem = idade
+#         nomevelho = nome
+#     if sexo in 'Mm' and idade>maioridadehomem:
+#         maioridadehomem=idade
+#         nomevelho = nome
+#     if sexo in 'Ff' and idade<20:
+#         totmulher20+=1
+# mediaidade=somaidade/4
+# print(f'A media de idade do grupo e de {mediaidade}')
+# print(f'O homem mais velho tem {maioridadehomem} anos e se chama {nomevelho}')
+# print(f'Ao todo são {totmulher20} mulheres com menos de 20 anos')
