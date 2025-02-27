@@ -6,7 +6,7 @@
 # while c<10:
 #     print(c)
 #     c+=1
-from math import factorial
+# from math import factorial
 
 # n=1
 # par=impar=0
@@ -110,7 +110,7 @@ from math import factorial
 
 
 # Par ou Impar
-import random
+# import random
 # from random import randint
 # vitorias=0
 # while True:
@@ -120,7 +120,7 @@ import random
 #     soma=jogador+computador
 #     resultado= 'Par' if soma%2==0 else 'Impar'
 #     print(f'Voce jogou {jogador} e o computador {computador}. Total de {soma} -> {resultado} ')
-#     if escolha == "P" and resultado == "Par" or escolha == "I" and resultado == "Impar":
+#     if escolha == "P" and resultado == "Par" or(escolha == "I" and resultado == "Impar"):
 #         print("🎉 Você venceu! Vamos jogar novamente...\n")
 #         vitorias += 1
 #     else:
