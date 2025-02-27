@@ -126,4 +126,3 @@ from random import shuffle
 # n= nome.split()
 # print(f'Seu primeiro nome é {n[0]} e seu ultimo nome é {n[-1]}')
 
-
