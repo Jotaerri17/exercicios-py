@@ -126,5 +126,42 @@
 #     else:
 #         print(' Você perdeu! Fim do jogo.')
 #         break
-#
 # print(f"\nTotal de vitórias consecutivas: {vitorias}")
+# Caixa eletronico
+# print('='*23)
+# print('    Banco do Brasil')
+# print('='*23)
+# dinheiro=int(input('Quanto voce quer sacar? R$'))
+# total= dinheiro
+# ced=50
+# totced=0
+# while True:
+#     if total>=ced:
+#         total-=ced
+#         totced+=1
+#     else:
+#         if totced>0:
+#         print(f'Total de {totced} cedulas de R${ced}')
+#         if ced==50:
+#             ced=20
+#         elif ced==20:
+#             ced=10
+#         elif ced==10:
+#             ced=1
+#             totced=0
+#         if total==0:
+#             break
+# print('Volte sempre ao Banco do Brasil! Tenha um bom dia!')
+
+# Contador
+# num=('zero','um','dois','tres','quatro','cinco','seis',
+# 'sete','oito','nove','dez','onze','doze','treze','quatorze',
+#  'quinze','dezesseis','dezessete','dezoito','dezenove','vinte')
+# while True:
+#       n=int(input('Digite um numero entre 0 e 20:'))
+#       if 0<=n<=20:
+#           break
+#       print('tente novamente. ',end='')
+# print(f'Voce digitou o numero {num[n]}')
+
+
